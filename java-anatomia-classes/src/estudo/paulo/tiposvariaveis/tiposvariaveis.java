@@ -8,5 +8,6 @@ public class tiposvariaveis {
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
+        System.out.println(numeroCurto2);
     }
 }
