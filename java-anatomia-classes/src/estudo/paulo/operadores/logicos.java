@@ -10,7 +10,7 @@ public class logicos {
         if (condicao1 && condicao2) {
             System.out.println("As duas condições são verdadeiras");
         }
-
+        // && E
         if (condicao1 && (7 > 6)) {
             System.out.println("As duas condições são verdadeiras");
         }
