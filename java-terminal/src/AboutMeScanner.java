@@ -12,6 +12,9 @@ public class AboutMeScanner {
         System.out.println("Digite seu sobrenome");
         String sobrenome = scanner.next();
 
+        System.out.println("Digite seu gênero");
+        String genero = scanner.next();
+
         System.out.println("Digite sua idade");
         int idade = scanner.nextInt();
 
