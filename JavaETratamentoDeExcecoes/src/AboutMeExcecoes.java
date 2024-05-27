@@ -35,6 +35,14 @@ public class AboutMeExcecoes {
             scanner.close();
         } catch (InputMismatchException e) {
             System.err.println("Os campos idade e altura precisam ser númericos.");
+            System.out.println("Reiniciando a aplicação em 5 segundos...");
+
+            // em caso de uma exceção vai reiniciar a aplicação depois de 5 segundos
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException ie) {
+                Thread.currentThread().interrupt();
+            }
         }
     }
 }
