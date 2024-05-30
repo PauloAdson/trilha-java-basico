@@ -11,7 +11,7 @@ public class SalarioFuncionario {
         scanner.close();
         float imposto = 0;
 
-        if (salarioBruto > 0 && salarioBruto <= 1100.00) {
+        if (salarioBruto >= 0 && salarioBruto <= 1100.00) {
             imposto = 5;
         } else if (salarioBruto > 1100.00 && salarioBruto <= 2500.00) {
             imposto = 10;
