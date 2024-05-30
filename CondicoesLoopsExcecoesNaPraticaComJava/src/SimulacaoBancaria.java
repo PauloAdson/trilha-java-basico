@@ -26,8 +26,7 @@ public class SimulacaoBancaria {
                     } else {
                         System.out.println("Saldo insuficiente.");
                     }
-                    // System.out.println("Programa encerrado.");
-                    // continuar = false;
+
                     // TODO: Ler o valor a ser sacado e verificar/imprimir se há saldo suficiente.
                     break;
                 case 3:
