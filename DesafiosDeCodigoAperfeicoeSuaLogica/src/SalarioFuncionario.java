@@ -22,7 +22,7 @@ public class SalarioFuncionario {
         float calculoPorcentagem = (imposto / 100) * salarioBruto;
         imposto = calculoPorcentagem;
         float salario = salarioBruto - imposto + adcionalBeneficios;
-        System.out.println(salario);
+        System.out.println(String.format("%.2f", salario));
 
     }
 }
