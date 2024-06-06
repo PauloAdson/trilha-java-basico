@@ -31,7 +31,8 @@ public class Estabelecimento {
         // almoxarife.trocarGas();
 
         Atendente atendente = new Atendente();
-        // atendente.pegarLancheCozinha();
+        // atendente.pegarLancheCozinha();\
+
         atendente.receberPagamento();
         atendente.servindoMesa();
         // // ação que somente o seu pacote cozinha precisa conhecer (default)
